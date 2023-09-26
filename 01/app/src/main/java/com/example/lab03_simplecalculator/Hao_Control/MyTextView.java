@@ -3,7 +3,6 @@ package com.example.lab03_simplecalculator.Hao_Control;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
-
 import android.graphics.Paint;
 import android.util.AttributeSet;
 
@@ -26,23 +25,23 @@ public class MyTextView extends androidx.appcompat.widget.AppCompatTextView {
         //添加边框
         canvas.drawLine(0,
                 0,
-                this.getWidth(),
+                this.getWidth()-0,
                 0,
                 paint);
         canvas.drawLine(0,
-                this.getHeight()-1,
-                this.getWidth(),
-                this.getHeight()-1,
+                this.getHeight()-2,
+                this.getWidth()-0,
+                this.getHeight()-2,
                 paint);
         canvas.drawLine(0,
                 0,
                 0,
-                this.getHeight(),
+                this.getHeight()-0,
                 paint);
-        canvas.drawLine(this.getWidth()-1,
+        canvas.drawLine(this.getWidth()-3,
                 0,
-                this.getWidth()-1,
-                this.getHeight(),
+                this.getWidth()-3,
+                this.getHeight()-0,
                 paint);
     }
 }
