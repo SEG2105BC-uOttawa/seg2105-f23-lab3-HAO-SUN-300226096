@@ -13,6 +13,7 @@
         tools:context=".MainActivity">
 
         <com.example.lab03_simplecalculator.Hao_Control.MyTextView
+
             android:id="@+id/myTextView2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

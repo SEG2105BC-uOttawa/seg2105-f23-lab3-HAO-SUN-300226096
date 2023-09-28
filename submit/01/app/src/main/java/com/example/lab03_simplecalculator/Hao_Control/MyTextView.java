@@ -13,7 +13,7 @@ import androidx.annotation.Nullable;
 
 //设置了一个小组件：添加了边框的标签
 public class MyTextView extends androidx.appcompat.widget.AppCompatTextView {
-    Paint paint=new Paint();
+    private Paint paint=new Paint();
     public MyTextView(@NonNull Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
     }

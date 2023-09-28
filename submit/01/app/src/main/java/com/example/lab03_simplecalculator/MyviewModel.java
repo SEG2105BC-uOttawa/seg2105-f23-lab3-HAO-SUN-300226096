@@ -1,13 +1,14 @@
 package com.example.lab03_simplecalculator;
 
 
+
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 //储存数据模型
 public class MyviewModel extends ViewModel {
     private MutableLiveData<String> mainNum;//主要数据，用户操作中的
     public String num[]={"",""};
-    public String sign1="";
+    public String sign1= "";
     public String sign2 = "";
     public  boolean havePoint = false;
     public MutableLiveData<String> getMainNum(){
